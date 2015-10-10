@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>FORM CPF HTML5</title>
-  <meta charset="utf-8">  
-  <script src="cpf.js"></script>
-  <script>
-    function vCPF(i) {
-      i.setCustomValidity(validaCPF(i.value)?'':'CPF inválido!');
-    }  
-  </script>
-</head>
-<body>  
-  <form>
-    <label for="cpf">CPF:<input type="text" name="cpf" id="cpf" oninput="vCPF(this)">
-    </label>
-    <input type="submit">
-  </form>
-</body>
+    <head>
+        <title>FORM CPF HTML5</title>
+        <meta charset="utf-8">
+        <script src="cpf.js"></script>
+        <script>
+          function vCPF(i) {
+            i.setCustomValidity(validaCPF(i.value)?'':'CPF inválido!');
+          }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label for="cpf">CPF:
+                <input type="text" name="cpf" id="cpf" oninput="vCPF(this)">
+            </label>
+            <input type="submit">
+        </form>
+    </body>
 </html>
