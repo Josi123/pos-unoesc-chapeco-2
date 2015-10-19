@@ -20,16 +20,16 @@ Todos os elementos html.
 }
 
 [classe,id,elemento] {
-	animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+	animation: [name duration timing-function delay iteration-count direction fill-mode play-state];
 	// ou cada sub-propriedade:
-	animation-name: name|none|initial|inherit;
-	animation-duration: time|initial|inherit;
-	animation-timing-function: linear|ease|ease-in|ease-out|cubic-bezier(n,n,n,n)|initial|inherit;
-	animation-delay: time|initial|inherit;
-	animation-iteration-count: number|infinite|initial|inherit;
-	animation-direction: normal|reverse|alternate|alternate-reverse|initial|inherit;
-	animation-fill-mode: none|forwards|backwards|both|initial|inherit;
-	animation-play-state: paused|running|initial|inherit;
+	animation-name: [name|none|initial|inherit];
+	animation-duration: [time|initial|inherit];
+	animation-timing-function: [linear|ease|ease-in|ease-out|cubic-bezier(n,n,n,n)|initial|inherit];
+	animation-delay: [time|initial|inherit];
+	animation-iteration-count: [number|infinite|initial|inherit];
+	animation-direction: [normal|reverse|alternate|alternate-reverse|initial|inherit];
+	animation-fill-mode: [none|forwards|backwards|both|initial|inherit];
+	animation-play-state: [paused|running|initial|inherit];
 }
 ```
 ##### Exemplo de uso
@@ -86,7 +86,7 @@ Qualquer propriedade com valor de cor.
 ##### Como usar:
 ```css
 // gradiente linear:
-[propriedade]: linear-gradient(direction<to bottom, to top, to right, to left, to bottom right, etc.>, color-stop1, color-stop2, ...);
+[propriedade]: linear-gradient([direction<to bottom, to top, to right, to left, to bottom right, etc.>, color-stop1, color-stop2, ...]);
 ```
 ##### Exemplo de uso
 
@@ -186,9 +186,13 @@ Todos os elementos html.
     src: url(fonte_legal.ttf);
     font-weight: bold;
 }
+
+p { font-family: fonteLegal; }
+
 ```
 ### Referencia:
 [http://www.w3schools.com/css/css3_fonts.asp](http://www.w3schools.com/css/css3_fonts.asp)
+[http://www.maujor.com/tutorial/css3-@font-face.php](http://www.maujor.com/tutorial/css3-@font-face.php)
 
 ##### Funcionalidade: **3D Transforms**
 ##### O que é?
