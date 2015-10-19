@@ -5,7 +5,7 @@
 #### Acadêmico(a): Alessandro Biessek
 ### Artigo de revisão de CSS3
 
-##### Funcionalidade: animation
+##### Funcionalidade: **animation**
 ##### O que é?
 É uma propriedade que permite a criação de animações com css, dispensando em muitos casos a utilização de outra linguagem para animar estilos de elementos. 
 ##### Onde usar:
@@ -58,11 +58,11 @@ div {
 [http://www.w3schools.com/cssref/css3_pr_animation.asp](http://www.w3schools.com/cssref/css3_pr_animation.asp)
 [http://www.w3.org/TR/css3-animations/#animation](http://www.w3.org/TR/css3-animations/#animation)
 
-##### Funcionalidade: calc()
+##### Funcionalidade: **calc()**
 ##### O que é?
 Função para realizar calculos aritméticos simples diretamente no css.
 ##### Onde usar:
-Qualquer propriedade com valor numérico (<length>, <frequency>, <angle>, <time>, <number>, or <integer>).
+Qualquer propriedade com valor numérico `(<length>, <frequency>, <angle>, <time>, <number>, or <integer>)`.
 ##### Como usar:
 ```css
 	[propriedade]: calc([expressão]) 
@@ -78,7 +78,7 @@ Qualquer propriedade com valor numérico (<length>, <frequency>, <angle>, <time>
 [https://developer.mozilla.org/en-US/docs/Web/CSS/calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
 [http://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use/](http://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use/)
 
-##### Funcionalidade: gradients
+##### Funcionalidade: **gradients**
 ##### O que é?
 Permite que os designers web e desenvolvedores criarem transições mais agradaveis entre cores sem apelar para imagens.
 ##### Onde usar:
@@ -99,7 +99,7 @@ Qualquer propriedade com valor de cor.
 [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients)
 [http://www.w3schools.com/css/css3_gradients.asp](http://www.w3schools.com/css/css3_gradients.asp)
 
-##### Funcionalidade: media queries
+##### Funcionalidade: **media queries**
 ##### O que é?
 Permite a criação de configurações de estilo diferentes e direcionadas para determinadas mídias(celular, tv, computador).
 ##### Onde usar:
@@ -126,7 +126,7 @@ Qualquer definição de classe.
 ### Referencia:
 [https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-##### Funcionalidade: columns
+##### Funcionalidade: **columns**
 ##### O que é?
 O layout baseado em colunas já faz parte da estrutura do css. Anteriormente eram feitas gambiarras até do lado servidor para dividir o conteúdo em colunas.  Ainda não possui suporte total dos navegadores.
 ##### Onde usar:
@@ -161,7 +161,7 @@ div {
 [http://www.w3schools.com/css/css3_multiple_columns.asp](http://www.w3schools.com/css/css3_multiple_columns.asp)
 [http://www.w3schools.com/css/css3_multiple_columns.asp](http://www.w3schools.com/css/css3_multiple_columns.asp)
 
-##### Funcionalidade: web fonts
+##### Funcionalidade: **web fonts**
 ##### O que é?
 Regra que permite a utilização de fontes que não estejam instaladas na máquina do usuário.
 ##### Onde usar:
@@ -190,7 +190,7 @@ Todos os elementos html.
 ### Referencia:
 [http://www.w3schools.com/css/css3_fonts.asp](http://www.w3schools.com/css/css3_fonts.asp)
 
-##### Funcionalidade: 3D Transforms
+##### Funcionalidade: **3D Transforms**
 ##### O que é?
 Permite estilizar elementos usando transformações 3D.
 ##### Onde usar:
@@ -225,7 +225,7 @@ div {
 ### Referencia:
 [http://www.w3schools.com/css/css3_3dtransforms.asp](http://www.w3schools.com/css/css3_3dtransforms.asp)
 
-##### Funcionalidade: text-overflow
+##### Funcionalidade: **text-overflow**
 ##### O que é?
 Especifica como um conteúdo que exceda seu espaço deve ser exibido(cortado, com reticências.)
 ##### Onde usar:
@@ -247,7 +247,7 @@ div {
 ### Referencia:
 [http://www.w3schools.com/cssref/css3_pr_text-overflow.asp](http://www.w3schools.com/cssref/css3_pr_text-overflow.asp)
 
-##### Funcionalidade: RGBA
+##### Funcionalidade: **RGBA**
 ##### O que é?
 Capacidade de adicionar o canal alfa à uma cor, anteriormente RGB. Simplifica o controle de opacidade de elementos.
 ##### Onde usar:
@@ -269,7 +269,7 @@ div {
 ### Referencia:
 [http://tableless.com.br/css3-breve-introducao-a-rgba/](http://tableless.com.br/css3-breve-introducao-a-rgba/)
 
-##### Funcionalidade: novos seletores por atributo
+##### Funcionalidade: **novos seletores por atributo**
 ##### O que é?
 Além de outros seletores adicionados, este possibilita selecionar elementos baseado nos seus atributos. 
 ##### Onde usar:
