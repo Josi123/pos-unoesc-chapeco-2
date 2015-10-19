@@ -42,6 +42,7 @@ São combinações de átomos, dando algum sentido à eles.
 ```html
 <form>
 	<label>Apenas um label</label>
+	<<input type="text" name="busca" value="busca" placeholder="busca">
 	<input type="button" name="Button" value="Button">
 </form>
 ```
@@ -69,13 +70,13 @@ Onde a analogia com a química acaba :/
 Um modelo de página concreta.
 
 ![Template](img_artigo/template.jpg)
-Format: ![Exemplo template](url)
+
 5.4 Páginas:
 
 Uma página pronta, a visão de algo tangível.
 
 ![Página](img_artigo/pagina.jpg)
-Format: ![Exemplo de página](url)
+
 
 6) Referências
 
